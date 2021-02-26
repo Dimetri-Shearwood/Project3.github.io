@@ -12,25 +12,53 @@ nav {
 }
 
 .whole {
-    border: solid 2px black;
-    height: 600px;
+    /* border: solid 2px black; */
+    /* height: 600px; */
     margin: 50px;
 }
 
 .container1, .container2, .container3 {
-    border: solid 2px black;
+    /* border: solid 2px black; */
     display: flex;
     justify-content: space-around;
     padding: 30px;
     margin: 25px 60px 20px 60px;
     font-family: 'Rubik', sans-serif;
+    font-size: 10px;
 }
 
 h1 {
-    border: solid 2px black;
+    /* border: solid 2px black; */
     padding: 10px;
 }
 
 .top1, .top2, .top3 {
-    
+
+}
+
+.drink {
+    width: 30%;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: inherit;
+  }
+
+
+img {
+    height: 300px;
+    width: 300px;
+    border: solid 2px black;
+    border-radius: 10%;
+}
+
+.modal{
+    border: solid 2px black;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
 }
